@@ -1,0 +1,19 @@
+
+/* === typography ====== */ 
+
+h1, h2, h3, h4, h5, h6, p, li, td, th, blockquote, label, input, textarea, select {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p, li, td, th, blockquote, label, input, textarea, select {
+  font-size: 1.2rem;
+  line-height: 165%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
