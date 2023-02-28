@@ -18,10 +18,10 @@ const Header = ({isLoggedIn, setIsLoggedIn, activeLoginBtn}) => {
                 <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/mock1">Mock Page 1</a>
+                <a className="nav-link" href="/map">Array Map</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/mock2">Mock Page 2</a>
+                <a className="nav-link" href="/api">Api Page</a>
               </li>
               <li className="nav-item dropdown">
                 <a 

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { MockPage1, MockPage2, SimpleForm, ComplexForm } from "./pages";
+import { ApiPage, MapPage, SimpleForm, ComplexForm } from "./pages";
 import { Header, Wrapper } from "./components";
 
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -37,8 +37,8 @@ function App() {
 
         )}
 
-        { page === "mock1" && <MockPage1 /> }
-        { page === "mock2" && <MockPage2 /> }
+        { page === "api" && <ApiPage /> }
+        { page === "map" && <MapPage /> }
         { page === "simple-form" && <SimpleForm /> }
         { page === "complex-form" && <ComplexForm /> }
         
